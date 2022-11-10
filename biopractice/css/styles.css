@@ -1,0 +1,30 @@
+/* Tyler Warner
+Nov 10th */
+
+/* 
+Video 12.2 Targeting Specific Classes, page 132
+Add class definitions as described in the video*/
+.intro {
+    font-size: 24px;
+    color: darkblue;
+    padding: 20px 60px;
+    text-align: center;
+}
+.highlight{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding: 5px;
+}
+
+/*Video 12.3 Creating a Set of Alert Elements, page 133
+Add 2 alert classes*/
+.alert {
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.alert.blue {
+    background: blue;
+}
+
