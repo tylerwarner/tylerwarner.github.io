@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Handlee&family=Mirza&display=swap');
+
+body {
+    background: #a6effdc7;
+    color: #3a3a3a;
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Anybody', cursive;
+}
+
+img {
+    max-width: 95%;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: 'Mirza', cursive;
+    background: #0a7b9165;
+    padding-top: 5px;
+}
+
+nav ul>li {
+    display: inline;
+}
+
+table {
+    border-color: rgb(10, 10, 10) 20px;
+    text-align: left;
+}
+
+a {
+    color: aliceblue;
+}
+
+footer {
+    background:#0a7b9165; 
+    color: #000000;
+    padding: 10px;
+}
+

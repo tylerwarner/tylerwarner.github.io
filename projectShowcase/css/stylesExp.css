@@ -1,0 +1,30 @@
+img {
+    object-fit: contain;
+    max-height: 300px;
+    margin: 5px;
+    margin: auto 5px 20px 5px;
+    border-radius: 20px;
+} 
+.projects {
+    width: 90%;
+    margin: 0 auto;
+}
+.projectex {
+    background: #FFFFFF;
+    border: 3px solid #000000b3;
+    float: left;
+    margin: 15px;        
+    text-align: center;
+    width: 22%;
+    border-radius: 50px;
+    padding-bottom: 10px;
+}
+.projectname {
+    background:#0a7b9165; 
+    color: #000000;
+    padding: 15px;
+    border-radius: 3px;
+}  
+footer {
+    clear: left;
+}
