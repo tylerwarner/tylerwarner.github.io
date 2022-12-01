@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;700&family=Handlee&display=swap');
+@font-face {
+    font-family: 'mirza';
+    src: url('../fonts/mirza-regular-webfont.woff2') format('woff2'),
+         url('../fonts/mirza-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: #a6effdc7;
+    color: #3a3a3a;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 2%;
+    font-family: 'Anybody', cursive, 'Tahoma';
+}
+main {
+    text-align: center;
+    margin: auto 3%;
+}
+img {
+    max-width: 80%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+h1 {
+    font-family: 'Handlee', cursive, 'Verdana';
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    font-family: 'Mirza', cursive, 'Georgia';
+    background: #0a7b9165;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+nav ul>li {
+    display: inline;
+    margin-right: 15px;
+}
+a:link {
+    color: aliceblue;
+}
+a:visited {
+    color:  #0a7b91c5;
+}
+a:hover {
+    color: #5fb4e2;
+}
+a:active {
+    color: #545454;
+}
+form {
+    text-align: left;
+    margin: 50px auto;
+}
+fieldset>div {
+    margin: 15px 5px;
+}
+#about-image {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+.oz-photos {
+    max-height: 300px;
+}
+hr {
+    background-color: #0a7b9165;
+    height: 1px;
+    border: none;
+}
+footer {
+    background:#0a7b9165; 
+    color: #000000;
+    padding: 10px;
+}
+#contact-form {
+    background-image: linear-gradient(#ffffff, #0a7b9108, #ffffff);
+}
+.button {
+    background: #494949;
+    color: aliceblue;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
