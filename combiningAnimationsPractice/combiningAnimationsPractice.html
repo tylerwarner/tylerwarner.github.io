@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<!-- Tyler Warner
+     1 Dec 2022 -->
+<html lang="en">
+<head>
+    <title>Red Square Blue Circle</title>
+    <meta name="author" content="Tyler Warner" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Animation of red square to blue circle and back." />
+    <meta name="keywords" content="red square, blue circle, animation" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+	div {
+		width: 200px;
+		height: 200px;
+		background: red;
+		animation: switch 4s infinite;
+	}
+	@keyframes switch {
+		0% {
+			background: red;
+            border-radius: 0%;
+		}
+		50% {
+			background: blue;
+            border-radius: 50%;
+		}
+		100% {
+			background: red;
+            border-radius: 0%;
+		}
+	}
+</style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
