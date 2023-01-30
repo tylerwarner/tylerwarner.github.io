@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+**************************  MODIFICATION LOG  **************************
+    Created By: Tyler Warner
+    Date Created: 28 Jan 2023
+
+        28-Jan-23 - CSS folder and index.html skeleton created. 
+        29-Jan-23 - index.html gutted and rewritten for assignment purpose. style.css added. Images folder created and business logo added. Modification log added.
+    
+************************** END MODIFICATION LOG **************************
+-->
+
+<html lang="en">
+<head>
+    <title>SKW Consulting > Home</title>
+    <meta name="author" content="Tyler Warner" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="SKW Consulting business page" />
+    <meta name="keywords" content="SKW Consulting, commercial consulting, mediation, advice" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <header role="banner">
+        <nav role="main">
+            <a href="index.html" id="logo" alt="SKW Consulting logo"><img src="images/skw_logo.png"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services & Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <!-- Insert a little JavaScript window. -->
+        <script> const today = new Date(); 
+        window.alert(`Welcome to SKW Consulting! \nToday is ${today.toDateString()}.`);
+        </script> 
+        <!-- Beginning of my page's main section. -->
+        <h1>Welcome to SKW Consulting!</h1>
+        <p>We provide consulting services for a variety of situations.
+        <br>With 50 years of combined experience, we have the know-how you need.</p>
+        <br>
+        <!-- Begin services list. (May change to table style later.)-->    
+        <h3>Our services include: </h3>
+        <ul>
+            <li>Commercial mediation</li>
+            <li>Dispute or disagreement resolution</li>
+            <li>Commercial contract, lease or product negotiation & advice</li>
+            <li>Automotive industry specific ussue management & advice</li>
+            <li>Commercial warranty issue management & advice</li>
+        </ul>
+        <!-- End services list.-->
+        <br>
+    </main>
+    <hr>
+    <footer>
+        <h2>Get in touch</h2>
+        <form action="mailto:tyler@skw.net.au?subject=SKW%20Enquiry%20Mail" enctype="text/plain" method="POST" id="contact-form" >
+            <fieldset>
+            <legend>&nbsp; We'd love to hear from you! &nbsp;</legend>
+            <div>
+                <label for="contact-person">Name: </label><input type="text" name="contact_person" id="contact-person" placeholder="Name" size="34"/>
+            </div>
+            <div>
+                <label for="email">Email: &nbsp;</label><input type="email" name="email" id="email" placeholder="Email" size="34"/>
+            </div>
+            <div>
+                <label for="phone">Phone Number: </label> <input type="tel" name="phone" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="22"/>
+            </div>
+            <div>
+                <textarea name="message" cols="75" rows="10" placeholder="Type your message here..."></textarea>
+            </div>
+            <input type="submit" id="submit" value="Submit" class="button">
+            </fieldset>
+        </form> 
+        <br>
+        <a href="index.html" alt="SKW Consulting logo"><img src="images/skw_logo.png"></a>
+    </footer>
+</body>
+</html>
