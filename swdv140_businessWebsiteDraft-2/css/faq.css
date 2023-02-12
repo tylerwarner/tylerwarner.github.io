@@ -1,0 +1,29 @@
+
+h2 {
+    cursor: pointer;
+}
+div {
+    display: none;
+    text-align: left;
+}
+div.open {
+    display: block;
+    padding: 1px 15% 2px 15%;
+}
+div h3, h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+div a {
+    font-weight: bold;
+}
+main ul {
+    padding-left: 45px;
+    text-transform: none;
+}
+main li {
+    padding-bottom: .25em;
+}
+main a:visited {
+    color: #070707c5;
+}
